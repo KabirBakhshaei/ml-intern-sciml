@@ -180,4 +180,4 @@ Target: beat Functional on CFD (baseline TBD once Phase 3 experiments run).
 - [huggingface/ml-intern](https://github.com/huggingface/ml-intern), original agent
 - [smolagents](https://github.com/huggingface/smolagents), agent framework
 - [vLLM](https://github.com/vllm-project/vllm), local LLM inference
-- ERC DANTE project (Grant 101115741), research funding
+- ERC DANTE project, research funding
