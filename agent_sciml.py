@@ -283,7 +283,7 @@ def main():
         return
 
     model = PatchedLiteLLMModel(
-        model_id="openai//storage/home/k.bakhshaei/models/gemma-4-31b-it",
+        model_id="openai/<your_storage>/models/gemma-4-31b-it",
         api_base=args.base_url,
         api_key="dummy",
     )
