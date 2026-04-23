@@ -17,7 +17,7 @@ The original `ml-intern` automates LLM post-training: it reads papers, finds dat
 | Finds datasets on HF Hub | No equivalent (data from OpenFOAM snapshots) |
 | Trains LLMs via HF Jobs | Implements strategies in codebase, submits via SLURM |
 | Benchmarks on GPQA | Benchmarks on relative L² error (Poisson + CFD) |
-| Targets GPQA > 32% | Poisson: beat Functional (8.578×10⁻⁴, sanity check). CFD: beat Functional on Navier–Stokes — the real scientific target |
+| Targets GPQA > 32% | Poisson: beat Functional (8.578×10⁻⁴, sanity check). CFD: beat Functional on Navier–Stokes, the real scientific target |
 
 ---
 
