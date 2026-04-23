@@ -125,19 +125,19 @@ python agent_sciml.py --evaluate
 
 Evaluation is two-tiered, reflecting the two-phase experimental design.
 
-### Phase 2 — Poisson Benchmark (sanity check)
+### Phase 2: Poisson Benchmark (sanity check)
 
 The Poisson problem has a smooth, globally uniform solution with no localised features. On this benchmark, the fixed random baseline is remarkably competitive (rel L² = 1.001×10⁻³, ranked 2nd out of 9 strategies). Beating it is non-trivial but not the primary scientific goal.
 
 | Result | Interpretation |
 |---|---|
-| rel L² < 8.578×10⁻⁴ | ✅ Beats Functional — candidate for CFD transfer |
-| rel L² < 1.001×10⁻³ | ✓ Beats random baseline — worth investigating |
+| rel L² < 8.578×10⁻⁴ | ✅ Beats Functional, candidate for CFD transfer |
+| rel L² < 1.001×10⁻³ | ✓ Beats random baseline, worth investigating |
 | rel L² > 1.001×10⁻³ | ✗ Worse than random on smooth problem |
 
 A strategy that wins here has passed a proof-of-implementation check. It does not yet prove scientific value.
 
-### Phase 3 — CFD Benchmark (the real test)
+### Phase 3: CFD Benchmark (the real test)
 
 The urban flow case (2D incompressible Navier–Stokes, flow around building obstacles) has sharp gradients at wall boundaries, recirculation zones in the wake, and thin boundary layers near solid surfaces. These are precisely the conditions where adaptive collocation is theoretically expected to outperform random sampling.
 
