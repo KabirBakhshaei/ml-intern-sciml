@@ -26,7 +26,7 @@ The original `ml-intern` automates LLM post-training: it reads papers, finds dat
 The host PhD research compares 9 collocation point selection strategies for PINNs across three stages:
 
 - Phase 1: 1,728-configuration hyperparameter sweep on a Poisson benchmark
-- Phase 2: 9-strategy comparison (Random, RAR, RAD, QR-DEIM, S-OPT-DEIM, PACMANN, Functional α-β-γ, Pareto-front, KL-Disagreement)
+- Phase 2: 9-strategy comparison
 - Phase 3 (upcoming): Transfer to 2D urban CFD (incompressible Navier–Stokes, flow around buildings)
 
 Current best: Functional strategy, rel L² = 8.578×10⁻⁴.
