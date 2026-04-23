@@ -46,8 +46,6 @@ ml-intern-sciml/
 └── README.md
 ```
 
-The PINN codebase (separate repo) lives at `<your_storage>/Collocation/` on the HPC cluster.
-
 The PINN codebase will be available at **KabirBakhshaei/pinns-collocation** (coming soon) 
 and currently lives at `<your_storage>/Collocation/` on the HPC cluster.
 
