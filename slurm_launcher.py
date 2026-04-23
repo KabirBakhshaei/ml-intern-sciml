@@ -26,9 +26,9 @@ from typing import Optional
 
 
 # ─── Cluster configuration ───────────────────────────────────────────────────
-CLUSTER_USER     = "k.bakhshaei"
+CLUSTER_USER     = "your_username"
 CONDA_ENV        = "pinns_cuda"
-PROJECT_DIR      = "/storage/home/k.bakhshaei/Collocation"
+PROJECT_DIR      = "<your_storage>/Collocation"
 RESULTS_DIR      = os.path.join(PROJECT_DIR, "Results")
 LOGS_DIR         = os.path.join(PROJECT_DIR, "logs")
 MAIN_SCRIPT      = os.path.join(PROJECT_DIR, "main_poisson.py")
