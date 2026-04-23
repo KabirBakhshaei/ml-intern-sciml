@@ -1,4 +1,4 @@
-# 🧪 ml-intern-sciml
+# ml-intern-sciml
 
 An adaptation of [huggingface/ml-intern](https://github.com/huggingface/ml-intern)
 for Physics-Informed Neural Network (PINN) collocation strategy research on HPC clusters.
